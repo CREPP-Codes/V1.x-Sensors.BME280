@@ -53,7 +53,7 @@ void loop()
   temperature = bme.readTemperature();
   Serial.print("Temperature = ");
   Serial.print(temperature);
-  Serial.println(" °C");
+  Serial.println(" deg C");
   
   pressure = bme.readPressure() / 100.0F;
   Serial.print("Pressure = ");
